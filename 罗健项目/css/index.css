@@ -1,0 +1,77 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#activity_section_bg1 {
+    /*  背景图片 ，要让他自适应div*/
+    background: pink;
+}
+
+#activity_section_wz {
+    /*设置文字*/
+    width: 100%;
+    height: 58px;
+}
+
+#video_left {
+    /* 设置左边盒子大小*/
+    float: left;
+    height: 415px;
+    width: 560px;
+    /*background-color: green;*/
+}
+
+#video_left > a {
+    /* 设置a标签的大小*/
+    float: left;
+    height: 200px;
+    width: 270px;
+    /*background-color: red;*/
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+#video_left > a > img {
+    /* 设置img大小，让图片自适应*/
+    height: 150px;
+    width: 270px;
+
+}
+#video_left > a img{
+    transition: all 0.5s;   /* c3属性，多少秒*/
+}
+#video_lefts > a:hover img{
+    transform: scale(1.1);  /* 放大倍数*/
+}
+
+#print_right {
+    /*设置右边和盒子大小*/
+    float: right;
+    height: 415px;
+    width: 560px;
+}
+
+#print_right > a {
+    /* 设置a标签的大小*/
+    float: left;
+    height: 200px;
+    width: 270px;
+    margin-right: 10px;
+    overflow: hidden;
+
+}
+#print_right > a img{
+    transition: all 0.5s;   /* c3属性，多少秒*/
+}
+#print_right > a:hover img{
+    transform: scale(1.1);  /* 放大倍数*/
+}
+
+#print_right > a > img {
+    /* 设置img大小，让图片自适应*/
+    height: 150px;
+    width: 270px;
+
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>标题</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <style>
+
+    </style>
+    <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            var H=$(".con").height()/$(".con li").length;
+            console.log(H);
+            $(".con ul li").hover(function (){
+                $(this).stop().animate({
+                    height:H*2
+                },500).siblings().stop().animate({
+                    height:($(".con").height()-H*2)/($(".con li").length-1)
+                },500);
+            },function(){
+                $(".con ul li").stop().animate({
+                    height:H
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <span><img src="images/20170507213521.png" alt=""/></span>
+        <div class="con">
+            <ul>
+                <li ><b class="sidebar1"></b></li>
+                <li ><b class="sidebar2"></b></li>
+                <li ><b class="sidebar3"></b></li>
+                <li ><b class="sidebar4"></b></li>
+                <li ><b class="sidebar5"></b></li>
+                <li ><b class="sidebar6"></b></li>
+                <li ><b class="sidebar7"></b></li>
+                <li ><b class="sidebar8"></b></li>
+                <li ><b class="sidebar9"></b></li>
+            </ul>
+        </div>
+</div>
+
+
+</body>
+</html>

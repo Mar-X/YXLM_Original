@@ -1,0 +1,493 @@
+@charset "UTF-8";
+#main{
+    position: relative;
+    max-width: 1680px;
+    width: 100%;
+    margin: 0 auto;
+}
+#main .top_big_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff url("../images/main_top_bg.jpg") no-repeat;
+    opacity: 0.7;
+    top: 0;
+}
+
+#NIE_topBar {
+    height: 55px;
+    background-color: #fbfbfb;
+    position: relative;
+    z-index: 9999;
+    line-height: 24px;
+}
+#NIE_topBar .NIE_topBar_logo{
+    float: left;
+    width: 200px;
+    height: 44px;
+    padding: 5px 10px 6px ;
+    margin-left: 10px;
+    background: url("../images/sprite_top.png") 0 -120px no-repeat;
+}
+#NIE_topBar .NIE_topBar_news{
+    position: relative;
+    width: 316px;
+    height: 55px;
+    float: left;
+    margin-left: 120px;
+}
+#NIE_topBar .NIE_topBar_news .NIE_topBar_news_s{
+    width: 100%;
+    height: 100%;
+    background:url("../images/NIE_top_ad_s.jpg") 0 0 no-repeat;
+}
+#NIE_topBar .NIE_topBar_news .NIE_topBar_news_b{
+    position: absolute;
+    width: 970px;
+    height: 185px;
+    bottom: -147px;
+    left: -300px;
+    display: none;
+    z-index: 2;
+    cursor: pointer;
+    background:url("../images/NIE_top_ad_big.jpg") 0 0 no-repeat;
+
+}
+#NIE_topBar .NIE_topBar_nav{
+    width: 500px;
+    height: 55px;
+    float: right;
+}
+#NIE_topBar .NIE_topBar_nav a{
+    line-height: 52px;
+    color: #333;
+    float: left;
+}
+#NIE_topBar .NIE_topBar_nav>a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#NIE_topBar .NIE_topBar_nav :hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+}
+
+#NIE_topBar .NIE_topBar_nav .NIE_topBar_menu{
+    width: 100px;
+    height: 52px;
+    float: left;
+    margin-left: 20px;
+}
+
+#NIE_topBar .NIE_topBar_nav .NIE_topBar_menu a:first-child{
+    cursor: default;
+    color: #bc2e2e;
+}
+#NIE_topBar .NIE_topBar_nav .NIE_topBar_menu span.triangle{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 224px;
+    top: 50%;
+    margin-top: -4px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent;
+}
+
+
+#NIE_topBar .NIE_topBar_nav .NIE_topBar_menu  .sub-nav{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+#NIE_topBar .NIE_topBar_nav .NIE_topBar_menu  .sub-nav ul{
+    width: 100%;
+    z-index: 10000;
+    display: none;
+    background-color: #F3F3F3;
+    border-bottom: none;
+}
+#NIE_topBar .NIE_topBar_nav .NIE_topBar_menu  .sub-nav li{
+    float: left ;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 60px;
+    color: #333;
+    border-bottom: none;
+}
+
+#NIE_topBar .NIE_topBar_nav  .NIE_treasure_wrapper{
+    float: left;
+    width: 125px;
+    height: 52px;
+    margin-left: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#NIE_topBar .NIE_topBar_nav ul{
+    width: 125px;
+    position: absolute;
+}
+#NIE_topBar .NIE_topBar_nav ul a{
+    display: block;
+    width: 100%;
+}
+#main .top_bar {
+    position: absolute;
+    margin-left: -600px;
+    left: 50%;
+    z-index: 1;
+}
+
+#main .fixed {
+    position: fixed;
+    background-color: #fff;
+    opacity: 0.7;
+    top: 0;
+    z-index: 200;
+}
+
+.top_bar .top_left {
+    height: 90px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: none;
+}
+
+.top_bar .top_left .dl_txt {
+    float: left;
+    width: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+
+.top_bar .top_left > img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.top_bar .top_left a {
+    float: left;
+    height: 80px;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.top_bar .top_left a img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.top_bar .top_left a .game_name {
+    float: left;
+    font-size: 32px;
+    line-height: 48px;
+    display: block;
+}
+
+.top_bar .top_left a .game_name p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.top_bar .top_nav {
+    float: right;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.top_bar .top_nav li {
+    width: 110px;
+    height: 35px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.top_bar .top_nav li a {
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    display: block;
+}
+
+.top_bar .top_nav li span {
+    position: absolute;
+    width: 15px;
+    height: 24px;
+    right: 0;
+    top: 8px;
+    background: url("../images/sprite_top.png") -50px 0 no-repeat;
+}
+.main{
+    position: relative;
+}
+.main_banner {
+    height: 585px;
+    position: relative;
+}
+.top_bar_moreZq{
+    padding-top: 33px;
+    width: 100%;
+    height: 100px;
+    background-color: #dfebeb;
+    opacity: 1;
+    top: 85px;
+    position: absolute;
+    z-index: 3;
+    display: none;
+}
+.top_bar_moreZq .top_bar_more{
+    right: 0;
+    top: 20px;
+     position: absolute;
+ }
+.top_bar_moreZq .top_bar_more .top_bar_line{
+    height: 104px;
+    width: 0;
+    float: right;
+    margin-left: 75px;
+    border-left: 1px solid #c8d0d0
+}
+.top_bar_moreZq a{
+    float: right;
+    width: 85px;
+    height: 100px;
+    margin:0 75px;
+    color: #666;
+    font:16px/24px "microsoft yahei";
+    text-align: center;
+}
+.top_bar_moreZq a span{
+    position: absolute;
+    display: inline-block;
+    background: url("../images/sprite_top.png")  no-repeat;
+}
+.top_bar_moreZq a i{
+    position: absolute;
+    top: 75px;
+}
+.top_bar_moreZq a:first-child span{
+    width: 65px;
+    height: 70px;
+    background-position: 0 -175px;
+}
+.top_bar_moreZq a:last-child span{
+    width: 71px;
+    height: 70px;
+    background-position: -65px -175px;
+}
+.main_banner > a.next_img {
+    width: 36px;
+    height: 64px;
+    position: absolute;
+    right: 20PX;
+    top: 45%;
+    border: 2px solid #ddf;
+    color: #ddf;
+    text-align: center;
+    z-index: 1;
+}
+
+.main_banner > a.next_img i {
+    position: absolute;
+    width: 36px;
+    font-size: 36px;
+    line-height: 64px;
+    font-weight: 900;
+    left: 50%;
+    margin-left: -18px;
+    top: 50%;
+    margin-top: -32px;
+}
+
+.main_banner li {
+    display: none;
+}
+
+.main_banner li span {
+    position: absolute;
+    width: 980px;
+    height: 500px;
+    top: 85px;
+    opacity: 0;
+}
+
+.main_banner .logo {
+    width: 180px;
+    height: 85px;
+    position: absolute;
+    text-align: center;
+    left: 30px;
+}
+
+.main_banner .logo img {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -90px;
+    position: absolute;
+    display: none;
+}
+
+.main_banner .logo h1 {
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+.main_banner .bunny {
+    width: 135px;
+    height: 118px;
+    position: absolute;
+    bottom: 3px;
+    left: 50px;
+    z-index: 1;
+}
+
+.main_banner .bunny img {
+    position: absolute;
+    width: 135px;
+    height: 118px;
+    top: 50%;
+    left: 50%;
+    margin-left: -67.5px;
+    margin-top: -59px;
+}
+
+.active {
+    display: block !important;
+}
+
+.download_wrap {
+    position: absolute;
+    /*width: 390px;*/
+    /*height: 123px;*/
+    top: 462px;
+    right: 50%;
+    margin-right: -250px;
+    overflow: hidden;
+    background-color: #ddf;
+    padding-top: 10px;
+    padding-left: 10px;
+    /*background-color: #faaf84;*/
+}
+
+.download_wrap .dl_wrap_content {
+    width: 380px;
+    height: 113px;
+
+    /*display: none;*/
+}
+
+.download_wrap .close_dl {
+    float: left;
+    width: 22px;
+    height: 23px;
+    background: url("../images/sprite_top.png") -75px 0 no-repeat;
+}
+
+.download_wrap .close_dl_txt {
+    float: left;
+    width: 52px;
+    margin-right: 10px;
+    color: #a88800;
+}
+
+.download_wrap .close_dl_txt i {
+    float: left;
+    width: 36px;
+    text-align: center;
+    line-height: 56px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.download_wrap .close_dl_txt span {
+    float: left;
+    width: 16px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.download_wrap .scan_qrCode {
+    width: 90px;
+    height: 90px;
+    padding: 9px;
+    background-color: #fff;
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.download_wrap .scan_qrCode img:nth-child(2) {
+    width: 90px;
+    height: 90px;
+}
+
+.download_wrap .scan_qrCode img.scan_line {
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+
+.download_wrap .dl_buttons {
+    float: left;
+    width: 175px;
+    height: 108px;
+    margin-left: 12px;
+}
+
+.download_wrap .dl_buttons a {
+    display: block;
+    width: 169px;
+    height: 50px;
+    margin-bottom: 8px;
+    background: url("../images/sprite_top.png") no-repeat;
+}
+
+.download_wrap .dl_buttons a.dl_buttons_ios {
+    background-position: 0 -70px;
+}
+
+.download_wrap .dl_buttons a.dl_buttons_android {
+    background-position: -170px -70px;
+}
+
+.download_wrap .dl_wrap_fold {
+    margin-right: 10px;
+    width: 24px;
+    text-align: center;
+    display: none;
+}
+
+.download_wrap .dl_wrap_fold a {
+    display: block;
+    width: 22px;
+    height: 23px;
+    background: url("../images/sprite_top.png") -100px 0 no-repeat;
+    margin-bottom: 6px;
+}
+
+.download_wrap .dl_wrap_fold span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #a88800;
+}

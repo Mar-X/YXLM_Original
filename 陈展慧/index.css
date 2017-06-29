@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+
+#trTop{
+    width: 100%;
+    height: 106px;
+    /*background-color: yellow;*/
+    margin-bottom: 16px;
+}
+#trTop #trTopL{
+    display: inline-block;
+    margin-right: 24px;
+}
+#trTop #trTopL img{
+    height: 80px;
+    padding-bottom: 10px;
+}
+#trTop #trTopR{
+    display: inline-block;
+    overflow: hidden;
+    /*background-color: purple;*/
+}
+#trTop #trTopR li{
+    display: inline-block;
+    width: 155px;
+    height:58px;
+    /*background-color: gray;*/
+    text-align: center;
+    float: left;
+    line-height: 58px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    padding-bottom: 17px;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    overflow: hidden;
+}
+#trTop #trTopR li span{
+    display: inline-block;
+    margin-top: -15px;
+    line-height: 29px;
+    font-weight: 900;
+}
+#trTop #trTopR #li1 i{
+    display: inline-block;
+    /*background-color: peru;*/
+    background: url("../images/trtopimg.png") no-repeat 0px 0;
+    width: 155px;
+    height: 54px;
+}
+#trTop #trTopR #li2 i{
+     display: inline-block;
+     /*background-color: peru;*/
+     background: url("../images/trtopimg.png") no-repeat -155px 0;
+     width: 155px;
+     height: 54px;
+    margin-top: 30px;
+ }
+#trTop #trTopR #li3 i{
+     display: inline-block;
+     /*background-color: peru;*/
+     background: url("../images/trtopimg.png") no-repeat -310px 0;
+     width: 155px;
+     height: 54px;
+    margin-top: 30px;
+ }
+#trTop #trTopR #li4 i{
+    display: inline-block;
+    /*background-color: peru;*/
+    background: url("../images/trtopimg.png") no-repeat -465px 0;
+    width: 155px;
+    height: 54px;
+    margin-top: 30px;
+}
+#trTop #trTopR #li5 i{
+    display: inline-block;
+    /*background-color: peru;*/
+    background: url("../images/trtopimg.png") no-repeat -620px 0;
+    width: 155px;
+    height: 54px;
+    margin-top: 30px;
+}
+#trTop #trTopR #li6 i{
+    display: inline-block;
+    /*background-color: peru;*/
+    background: url("../images/trtopimg.png") no-repeat -775px 0;
+    width: 155px;
+    height: 54px;
+    margin-top: 30px;
+}
+.qwtg{
+    display: inline-block;
+    line-height: 73px;
+    margin-bottom: 20px;
+}
+#trBotton em{
+    display: inline-block;
+    width: 140px;
+    height: 95px;
+    background: url("../images/h_logo.fw.png") no-repeat center center;
+    z-index: 10000;
+    position: absolute;
+    top: 45px;
+    left: 75px;
+    display:none;
+}
+#trBotton #trBTop{
+    width: 1220px;
+    height: 200px;
+    /*background-color: orange;*/
+    padding-top: 10px;
+    margin-left: -20px;
+}
+ .trBTopOne{
+    display: inline-block;
+    width: 285px;
+    height: 220px;
+    /*background-color: pink;*/
+    float: left;
+    margin-left: 20px;
+     overflow: hidden;
+     position: relative;
+
+}
+.trBTopOne span{
+    display: block;
+    padding: 5px 0;
+    font: 14px "微软雅黑";
+}
+
+
+.trBTopOne  .img-bg{
+    width: 285px;
+    height: 178px;
+    background: url("../images/trsz.png") no-repeat center center;
+    background-color: #000000;
+    z-index: 9999;
+    opacity: 0.7;
+}
+/*.trBTopOne em{*/
+    /*display: inline-block;*/
+    /*width: 41px;*/
+    /*height: 40px;*/
+    /*background: url("../images/trsz.png") no-repeat center center;*/
+    /*z-index: 10000;*/
+/*}*/
+ .trBTopOne img{
+    width: 285px;
+     cursor: pointer;
+}
+#trBotton #trBBotton{
+    width: 1220px;
+    height: 210px;
+    /*background-color: greenyellow;*/
+    margin-left: -20px;
+}

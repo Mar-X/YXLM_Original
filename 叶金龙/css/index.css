@@ -1,0 +1,225 @@
+
+
+a:hover{
+    color:#CCC;
+
+}
+
+.code_section{
+    width: 100%;
+    height: 103px;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+
+/*提示栏开始*/
+#notice{
+    width: 1170px;
+    border-bottom: 2px solid rgba(204, 190, 108, 0.67);
+    padding: 15px 15px 20px;
+    height: 68px;
+    /* background-color: rgba(100,100,100,0.3); */
+
+}
+
+
+/*提示左栏开始*/
+.boot-left,.boot-center,.boot-right{
+    width: 390px;
+    height: 100%;
+
+}
+
+.boot-center{
+    width: 390px;
+
+}
+
+.boot-right{
+
+    width: 300px;
+    /*background-color: red;*/
+}
+
+
+.ewm{
+    float: left;
+    width:67px ;
+    height:67px;
+    background: url(../images/footlogo.png) -264px 0;
+    margin-right: 20px;
+}
+
+
+p .saomiao{
+    font: 100 14px/24px "Microsoft YaHei";
+}
+
+
+.offical{
+    font: 100 12px/24px "Microsoft YaHei";
+}
+
+
+/*提示左栏结束*/
+
+
+
+/*提示中栏开始*/
+
+.friendnot{
+    /*position: relative;*/
+    width: 390px;
+    margin: 0 auto ;
+
+}
+
+.friendnot li{
+    float: left;
+    height: 20px;
+    font: 100 12px/20px "Microsoft YaHei";
+    text-align: center;
+    margin:1px 7px ;
+    /*background-color: red;*/
+
+}
+
+/*提示中栏结束*/
+
+/*提示右栏开始*/
+
+
+.boot-right {
+    position: relative;
+    /*vertical-align: middle;/!*行内元素的垂直居中*!/*/
+
+}
+ .footerR-lnk {
+    width: 244px;
+    height: 40px;
+    border: 2px solid rgba(128, 128, 255, 0.36);
+    background-color: white;
+    padding:5px 3px ;
+    border-radius: 20%;/*不懂*/
+    top:50%;
+    margin-top: -25px;/*这里包括height+border+padding去设置*/
+    position: absolute;
+
+}
+
+.footerR-lnk span{
+    width: 190px;
+    height: 100%;
+    padding-left: 5px ;
+    vertical-align: middle;
+    font: 100 16px/36px "Microsoft YaHei";
+    color:#2A6628;
+    border-right:3px solid goldenrod ;
+
+}
+
+.ico-arrowdown{
+    width: 43px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    position: relative;
+
+}
+
+
+.publicspr{
+    background: url("../images/public-spr.png")  no-repeat  -1233px -428px;
+    width: 8px;
+    height: 6px;
+    color: #666;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -3px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+/*提示右栏结束*/
+
+/*上拉菜单开始*/
+.footer-mt-st {
+    position: absolute;
+    /*border-radius: 12%;*/
+    top: -186px;
+    left: -6px;
+    height: 185px;
+    width: 257px;
+    padding-top: 5px;
+    border: 2px solid rgba(96, 100, 27, 0.79);
+    background: #fff;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.footer-mt-st a {
+    display: block;
+    text-indent: 2em;
+    height: 30px;
+
+    color: #999;
+    font: normal 15px/2em Microsoft YaHei,Tahoma,simsun;
+
+}
+.footer-mt-st a:hover{
+    background-color: #CDCDCD;
+
+}
+
+/*上拉菜单结束*/
+/*提示栏结束*/
+
+
+
+/*底部开始*/
+
+
+.ZQ__map{
+    width:1300PX;
+    height: 500px;
+    /*background-color:#EAEAEA ;*/
+
+     }
+.foot-action{
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    background-color: #e4e4e4;
+    padding-top: 10px;
+}
+
+.foot-action .search{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid #E2E2E2;
+
+}
+.foot-action .search .input{
+
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 30px 0 4px;
+    width: 364px;
+    color: #BCBCBC;
+    border: none;
+    background-color: transparent;
+    display: block;
+
+}
+
+
+
+/*底部结束*/
+

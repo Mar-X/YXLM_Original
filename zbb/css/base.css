@@ -1,0 +1,115 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img  {
+    margin:0;
+    padding:0
+}
+
+img {
+    border: 0
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    /*font-size: 14px;*/
+    /*color: #434343;*/
+    /*font-family: "宋体";*/
+    /*/!*background-color: black;*!/*/
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {zoom: 1;}
+
+a {
+    color: #434343;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+.fl 	{
+    float: left;
+}
+.fr 	{
+    float: right;
+}
+/*css初始化完成*/
+
+.NIE-topBar{
+    height: 55px;
+    background: #cddaff;
+}
+/*主版心页面*/
+.main{
+    max-width:1920px;
+    width: 100%;
+    background:#fff;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+
+}
+.main_banner{
+    width: 100%;
+    height: 585px;
+    /*background: #6595b8;*/
+}
+.index_side_bar{
+    width: 707px;
+    height: 1181px;
+    background: #ffa3aa;
+    position: relative;
+    z-index:10;
+}
+.news_section{
+    width: 100%;
+    height: 349px;
+    background: aliceblue;
+    position: relative;
+    padding-bottom: 49px;
+}
+.shishen_section{
+    width: 100%;
+    height: 607px;
+    background: #99756c
+}
+.strategy_section{
+    width: 100%;
+    height: 438px;
+    background: #9cebff;
+}
+.tongren_section{
+    width: 100%;
+    height: 537px;
+    background: #ff955e;
+}
+.shitu_section{
+    width: 100%;
+    height: 514px;
+    background: #c26bff;
+}
+.activity_section{
+    width: 100%;
+    height: 434px;
+    background: #ff4d69;
+}
+.code_section{
+    width: 100%;
+    height: 274px;
+    background: #5fb4a0;
+}
+.page_footer{
+    width: 100%;
+    height: 719px;
+    background: #b48e68;
+}

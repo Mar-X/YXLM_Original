@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>标题</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <style>
+
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+<!--<div class="NIE-topBar">郭小泉</div>-->
+
+    <!--<div class="top_bar"></div>-->
+    <!--<div class="main_banner">王晓亮</div>-->
+    <!--<div class="index_side_bar fr">胡慧</div>-->
+    <!--<div class="news_section">钟彬斌</div>-->
+    <!--<div class="shishen_section">林瑞鹏</div>-->
+    <!--<div class="strategy_section">石川麟</div>-->
+    <!--<div class="tongren_section">陈展慧</div>-->
+    <!--<div class="shitu_section">孙珊</div>-->
+    <div class="main">
+    <div id="activity_section_bg">
+        <!--<img src="images/bg1.jpg" alt="" id="activity_section_bg1"/>  &lt;!&ndash; 用来设置背景图片&ndash;&gt;-->
+        <div id="activity_section_wz">
+            <a href="#"><img src="images/_r2_c2.png" alt=""/></a>
+            <a href="#"></a>
+        </div>
+        <div class="activity_section">    <!-- 版心-->
+            <div id="video_left">    <!--视屏左 -->
+
+                <a href="#"><img src="images/22.jpg" alt=""/>
+                <P>这个组合技能怎么样</P>
+                </a>
+                <a href="#"><img src="images/11.gif" alt=""/>
+                <p>死亡如风，常伴吾身</p>
+                </a>
+                <a href="#"><img src="images/33.jpg" alt=""/>
+                <p>我能怎么办，我也很绝望</p>
+                </a>
+                <a href="#"><img src="images/44.jpg" alt=""/>
+                <p>坐稳了，要开车了</p>
+                </a>
+
+            </div>
+
+
+            <div id="print_right">
+
+                <a href="#"><img src="images/1.jpg" alt="" id="one1"/>
+                <p>吾之初心，永世不忘。</p>
+                </a>
+                <a href="#"><img src="images/2.jpg" alt="" id="one2"/>
+                <p>断剑重铸之日骑士归来之时！</p>
+                </a>
+                <a href="#"><img src="images/3.jpg" alt="" id="one3"/>
+                <p>只有高手才能活下来。</p>
+                </a>
+                <a href="#"><img src="images/4.jpg" alt="" id="one4"/>
+                <p>犯我德邦者虽远必诛</p>
+                </a>
+            </div>
+            <!--图片右 -->
+
+        </div>
+        </div>
+    </div>
+
+    <!--<div class="code_section">叶金龙</div>-->
+    <!--<div class="page_footer">毛欣</div>-->
+</div>
+
+</body>
+</html>
+
+
+<script>
+
+//    window.onload = function () {
+//        var print_right = document.getElementById("print_right");
+//        var print_right_a = print_right.getElementsByTagName("a");
+//        var one1 = document.getElementById("one1");
+//        var one2 = document.getElementById("one2");
+//        var one3 = document.getElementById("one3");
+//        var one4 = document.getElementById("one4");
+//        var one = [];
+//        one.push(one1)
+//        one.push(one2)
+//        one.push(one3)
+//        one.push(one4)
+//
+//        for (var i = 0; i < print_right_a.length; i++) {
+//            print_right_a[i].setAttribute("className", i);
+//
+//            print_right_a[i].onmouseover = function () {
+//
+//
+//                var wValue =  this.offsetWidth+ 20;
+//                var hValue = this.offsetHeight+20;
+//                one[this.getAttribute("className")].position= "absolute";
+//                animate(one[this.getAttribute("className")], {
+//
+//                    width: wValue,
+//                    height: hValue,
+//                    top:-Math.floor(hValue/2),
+//                    left:-Math.floor(wValue/2)
+//
+//                }, 1000);
+//            }
+//            print_right_a[i].mouseenter(function () {
+//
+//            })
+//            print_right_a[i].on("mouseenter", function () {
+//
+//            })
+//            print_right.on("mouseenter","a", function () {
+//
+//            })
+//            print_right_a[i].onmouseout=function () {
+//
+//                animate(one[this.getAttribute("className")], {
+//                    width: "270",
+//                    height: "150",
+//                    top: "0",
+//                    left: "0"
+//                }, 1000);
+//            };
+//
+//
+//        }
+//    }
+//
+
+//    function animate(obj, json, fun) {
+//        clearInterval(obj.timeId);
+//
+//        obj.timeId = setInterval(function () {
+//            var one = true;//用来检测是否停止定时器
+//            for (var key in json) {
+//                //找出本身位置 ,parseInt把带单位的字符串转化成数字，后面的单位会自动删除，
+//                var lender = parseInt(getStyle(obj, key)) || 0;//
+//                //找出要移动到的位置
+//                var yidong = json[key];
+//                //计算步长
+//                var step = (yidong - lender) / 10;
+//                // step有负数，不同对待.零点几的负数向上取整是零
+//                step = step > 0 ? Math.ceil(step) : Math.floor(step);
+//                //移动一步的距离
+//                obj.style[key] = lender + step + "px"
+//                if (lender != yidong) {
+//                    one = false;
+//                }
+//            }
+//            if (one == true) {
+//                clearInterval(obj.timeId);
+//                if (typeof(fun) == "function") { //判断是不是函数
+//                    fun(); //是函数就调用
+//                }
+//            }
+//        }, 30)
+//
+//    }
+//    function getStyle(obj, attr) {
+//        // 能力检测 就是要看当前的浏览器是否支持此对象的属性和方法
+//        if (obj.currentStyle) {
+//            return obj.currentStyle[attr];
+//        } else {
+//            return getComputedStyle(obj, null)[attr];
+//        }
+//    }
+
+
+</script>

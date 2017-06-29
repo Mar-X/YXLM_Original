@@ -1,0 +1,100 @@
+.main_sidebar{
+    width: 350px;
+    top:0;
+    right:0;
+    position: relative;
+}
+
+.con_wrap{
+    width: 350px;
+    position: absolute;
+    top: -177px;
+    right: 0;
+    z-index: 2;
+
+}
+.con_wrap span i{
+    display: block;
+    width: 350px;
+    height: 50px;
+    color:#fff;
+    font:28px "微软雅黑";
+    line-height:50px;
+    text-align:center;
+    background:rgba(0,0,0,0.4);  
+}
+.con {
+    width: 350px;
+    height: 1040px;
+
+}
+
+
+.con ul {
+    width: 350px;
+    overflow: hidden;
+}
+
+.con ul li {
+    width: 400px;
+    height: 130px;
+    float: left;
+    overflow: hidden;
+}
+.con ul .first {
+    border-left: none;
+}
+.sidebar1{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big103001.jpg") 500px -15px;
+}
+.sidebar2{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big103000.jpg") 500px -50px;
+}
+.sidebar3{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big41001.jpg") 500px -40px;
+}
+.sidebar4{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big103006.jpg") 430px -200px;
+}
+.sidebar5{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big23000.jpg") 500px -50px;
+}
+.sidebar6{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big107002.jpg") 400px -200px;
+}
+.sidebar7{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big62000.jpg") 600px -50px;
+}
+.sidebar8{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big103004.jpg") 500px -50px;
+}
+.sidebar9{
+    display: block;
+    width: 980px;
+    height: 500px;
+    background:url("../images/big41000.jpg") 500px -50px;
+}

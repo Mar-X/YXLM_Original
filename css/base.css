@@ -1,0 +1,123 @@
+@charset "UTF-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img  {
+    margin:0;
+    padding:0
+}
+
+img {
+    border: 0
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*unitedCode的写法，宋体的写法*/
+    color: #404040; /*150%基于当前字体尺寸的百分比行间距*/
+    background: #fff;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {zoom: 1;}
+
+a {
+    color: #434343;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+.fl 	{
+    float: left;
+}
+.fr 	{
+    float: right;
+}
+.xd{
+    position:relative;
+}
+/*css初始化完成*/
+
+.NIE-topBar{
+    height: 55px;
+    background: #cddaff;
+}
+/*主版心页面*/
+.main{
+    width:1200px;
+    background:#fff;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+
+}
+
+.main_banner{
+    width: 100%;
+    height: 585px;
+    /*background: #6595b8;*/
+    position:relative;
+}
+.index_side_bar{
+    width: 707px;
+    height: 1181px;
+    /*background: #ffa3aa;*/
+    position:absolute;
+}
+.news_section{
+    width: 100%;
+    height: 349px;
+    position:relative;
+}
+.shishen_section{
+    width: 100%;
+    height: 607px;
+    /* background: #99756c; */
+    position:relative;
+}
+.strategy_section{
+    width: 100%;
+    height: 438px;
+    background: #9cebff;
+    position:relative;
+}
+.tongren_section{
+    width: 1200px;
+    height: 570px;
+    /*background:red;*/
+    position:relative;
+}
+.shitu_section{
+    width: 100%;
+    height: 514px;
+    /*background: #c26bff;*/
+    position:relative;
+}
+.activity_section{
+    width: 100%;
+    height: 434px;
+    /*background: #ff4d69;*/
+    position:relative;
+}
+.code_section{
+    width: 100%;
+    height: 274px;
+    /* background: #5fb4a0; */
+    position:relative;
+}
+.page_footer{
+    width: 100%;
+    height: 719px;
+    /* background: #b48e68; */
+    position:relative;
+}
